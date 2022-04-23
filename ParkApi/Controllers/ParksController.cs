@@ -52,7 +52,7 @@ namespace StateAndNationalParks.Controllers
 
 
     // GET: api/Parks/5
-    [HttpGet("{id}")]
+    [HttpGet("{parkId}")]
     public async Task<ActionResult<Park>> GetPark(int parkId)
     {
         var park = await _db.Parks.FindAsync(parkId);
