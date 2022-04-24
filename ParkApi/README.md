@@ -75,7 +75,7 @@ Use the CRUD methods to add new parks to the database by opening up Postman, lau
 
 ## Known Bugs
 
-* Currently, the string values will not accept entries that include multiple words, and even multiple words with no spaces (example: "RockyMountNationalPark" and "Rocky Mountain National Park" return the same error, but "Rockymountainnationalpark" works). 
+* Currently, the string values will not accept entries that include multiple words, and even multiple words with no spaces (example: "RockyMountainNationalPark" and "Rocky Mountain National Park" return the same error, but "Rockymountainnationalpark" works). 
 * Currently, Swagger is functional but is unable to fetch data, and I am unsure what the fix is after trying several options I looked up. 
 
 ## Contact Me
