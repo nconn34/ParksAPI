@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace CretaceousPark.Migrations
+namespace ParkApi.Migrations
 {
     public partial class Initial : Migration
     {
@@ -27,7 +27,7 @@ namespace CretaceousPark.Migrations
             migrationBuilder.InsertData(
                 table: "Parks",
                 columns: new[] { "ParkId", "Activities", "Location", "Name", "Type", "YearFounded" },
-                values: new object[] { 1, "Hiking", "Colorado", "Rockymountain", "NP", 1924 });
+                values: new object[] { 1, "Hiking", "Colorado", "Rocky Mountain", "NP", 1924 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

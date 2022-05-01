@@ -14,10 +14,10 @@ namespace ParkApi.Models
         {
             builder.Entity<Park>()
                     .HasData(
-                        new Park { ParkId = 1, Name = "Rockymountain", Type = "NP", Location = "Colorado", YearFounded = 1924, Activities = "Hiking" },
-                        new Park { ParkId = 2, Name = "Mt.rainier", Type = "NP", Location = "Washington", YearFounded = 1915, Activities = "Hiking" },
-                        new Park { ParkId = 3, Name = "Capedisappointment", Type = "SP", Location = "Washington", YearFounded = 1936, Activities = "Surfing" },
-                        new Park { ParkId = 4, Name = "Mtbaker", Type = "SP", Location = "Washington", YearFounded = 1946, Activities = "Snowboarding" },
+                        new Park { ParkId = 1, Name = "Rocky Mountain", Type = "NP", Location = "Colorado", YearFounded = 1924, Activities = "Hiking" },
+                        new Park { ParkId = 2, Name = "Mt.Rainier", Type = "NP", Location = "Washington", YearFounded = 1915, Activities = "Hiking" },
+                        new Park { ParkId = 3, Name = "Cape Disappointment", Type = "SP", Location = "Washington", YearFounded = 1936, Activities = "Surfing" },
+                        new Park { ParkId = 4, Name = "Mt.Baker", Type = "SP", Location = "Washington", YearFounded = 1946, Activities = "Snowboarding" },
                         new Park { ParkId = 5, Name = "Wyalusing", Type = "SP", Location = "Wisconsin", YearFounded = 1926, Activities = "Kayaking" }
                         );
         }

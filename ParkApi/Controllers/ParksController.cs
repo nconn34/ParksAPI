@@ -22,10 +22,10 @@ namespace StateAndNationalParks.Controllers
 
     // GET: api/Parks
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Park>>> Get()
-    {
-      return await _db.Parks.ToListAsync();
-    }
+    // public async Task<ActionResult<IEnumerable<Park>>> Get()
+    // {
+    //   return await _db.Parks.ToListAsync();
+    // }
     public async Task<ActionResult<IEnumerable<Park>>> Get(string parkId, string name, string location, int yearFounded, string activities)
     {
       var query = _db.Parks.AsQueryable();

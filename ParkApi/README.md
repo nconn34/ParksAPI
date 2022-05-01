@@ -18,6 +18,27 @@
 
 Use the CRUD methods to add new parks to the database by opening up Postman, launching the browser, using the main page url, and utilizing Post or Put through Postman. You will want to make sure that you are under the raw data section and that JSON is selected for data type.
 
+## Endpoints
+
+Base URL: https://localhost:5001
+
+GET /api/{component}
+POST /api/{component}
+GET /api/{component}/{id}
+PUT /api/{component}/{id}
+DELETE /api/{component}/{id}
+
+https://localhost:5001/api/park/5
+
+{
+    "Id": 5,
+    "Name": "Wyalusing",
+    "Type": "SP",
+    "Location": "Wisconsin",
+    "YearFounded": 1926,
+    "Activities" = "Kayaking"
+}
+
 ## Setup/Installation Requirements
 
 * Clone repository.

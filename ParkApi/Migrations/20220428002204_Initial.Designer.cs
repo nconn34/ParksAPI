@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ParkApi.Models;
 
-namespace CretaceousPark.Migrations
+namespace ParkApi.Migrations
 {
     [DbContext(typeof(ParkApiContext))]
-    [Migration("20220423224810_SeedData")]
-    partial class SeedData
+    [Migration("20220428002204_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -54,7 +54,7 @@ namespace CretaceousPark.Migrations
                             ParkId = 1,
                             Activities = "Hiking",
                             Location = "Colorado",
-                            Name = "Rockymountain",
+                            Name = "Rocky Mountain",
                             Type = "NP",
                             YearFounded = 1924
                         });

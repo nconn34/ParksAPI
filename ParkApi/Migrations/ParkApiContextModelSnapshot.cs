@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ParkApi.Models;
 
-namespace CretaceousPark.Migrations
+namespace ParkApi.Migrations
 {
     [DbContext(typeof(ParkApiContext))]
     partial class ParkApiContextModelSnapshot : ModelSnapshot
@@ -52,45 +52,9 @@ namespace CretaceousPark.Migrations
                             ParkId = 1,
                             Activities = "Hiking",
                             Location = "Colorado",
-                            Name = "Rockymountain",
+                            Name = "Rocky Mountain",
                             Type = "NP",
                             YearFounded = 1924
-                        },
-                        new
-                        {
-                            ParkId = 2,
-                            Activities = "Hiking",
-                            Location = "Washington",
-                            Name = "Mt.rainier",
-                            Type = "NP",
-                            YearFounded = 1915
-                        },
-                        new
-                        {
-                            ParkId = 3,
-                            Activities = "Surfing",
-                            Location = "Washington",
-                            Name = "Capedisappointment",
-                            Type = "SP",
-                            YearFounded = 1936
-                        },
-                        new
-                        {
-                            ParkId = 4,
-                            Activities = "Snowboarding",
-                            Location = "Washington",
-                            Name = "Mtbaker",
-                            Type = "SP",
-                            YearFounded = 1946
-                        },
-                        new
-                        {
-                            ParkId = 5,
-                            Activities = "Kayaking",
-                            Location = "Wisconsin",
-                            Name = "Wyalusing",
-                            Type = "SP",
-                            YearFounded = 1926
                         });
                 });
 #pragma warning restore 612, 618
